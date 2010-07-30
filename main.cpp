@@ -581,7 +581,7 @@ void process_v9_packet (unsigned char *pkt, int len /* 整个v9报文的长度 *
 								}
 							default:
 								{
-									couti << __LINE__ << " unknown field length. " << endl;
+									cout << __LINE__ << " unknown field length. " << endl;
 									break;
 								}
 						}
